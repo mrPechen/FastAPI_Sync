@@ -1,6 +1,4 @@
-import uuid
 from typing import Optional
-
 from pydantic import BaseModel, field_validator
 
 
@@ -62,7 +60,6 @@ class Submenu(SubmenuBase):
 
 
 class MenuBase(BaseModel):
-    #id: str
     title: str
     description: str
 
@@ -86,28 +83,3 @@ class Menu(MenuBase):
 
     class Config:
         from_attributes = True
-
-
-class MenuSchema(BaseModel):
-    id: int
-    name: str
-    #submenu_rel: int
-    submenu_count: int
-    dish_count: int
-
-    class Config:
-        from_attributes = True
-
-
-
-
-
-
-class SubmenuSchema(SubmenuBase):
-    menu_rel: list[MenuBase]
-
-
-
-
-
-
