@@ -1,6 +1,5 @@
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session
 from . import models, schemas
-from sqlalchemy import func
 
 
 def get_menus(db: Session):
@@ -103,9 +102,3 @@ def delete_dish(db: Session, menu_id: int, submenu_id: int, dish_id: int):
     db.delete(delete)
     db.commit()
     return delete
-
-
-def test(db: Session):
-    #db = db.query(models.Menu).options(joinedload(models.Menu.submenu_rel)).all()
-    menu = db.query(models.Menu).all()
-
