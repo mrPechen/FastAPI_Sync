@@ -1,5 +1,6 @@
 # YLab_project_1
-Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker
+Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.  
+
 Тест подсчета подменю и блюд реализован в файле "application/tests/count_submenus_and_dishes_test.py". Он запускается вместе со всеми тестами.
 
 Для запуска из докера:  
