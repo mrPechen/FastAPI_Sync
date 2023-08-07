@@ -1,8 +1,10 @@
 # YLab_project_1
-Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.
+Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker + Redis.
 
 Для хранения переменных во время запуска Pytest использовал встроенное кэширование.
 Тест подсчета подменю и блюд реализован в файле "application/tests/count_submenus_and_dishes_test.py". Он запускается вместе со всеми тестами.
+
+Для хранения кеша API используется redis.
 
 Для запуска из докера:
 
