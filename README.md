@@ -6,6 +6,8 @@ Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker 
 
 Для хранения кеша API используется redis.
 
+Проверка кода через линтеры в файле ".pre-commit-config.yaml". В корне проекта запустить команды "pre-commit install", затем "pre-commit run --all-files".
+
 Для запуска из докера:
 
   1. Клонировать проект.
