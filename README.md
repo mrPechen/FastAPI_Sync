@@ -11,7 +11,7 @@ Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.
 
     Запуск проекта и базы данных:
 
-    1. Запустить команду "docker compose -f docker-compose.yml up --build" из корня проекта.
+    1. Запустить команду "docker compose -f docker-compose.yaml up --build" из корня проекта.
     2. По адресу "0.0.0.0:8000" будет доступно API.
     3. Протестировать можно через Postman или вручную. Готовые тесты лежат в папке "Postman". Их необходимо импортировать в приложение Postman, далее выбрать "menu app" в качестве             environments. Для ручного тестирования использовать пути из файла "main.py".
     4. Тесты из папки "Тестовый сценарий" проходить только с пустой базай данных.
@@ -21,7 +21,7 @@ Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.
     Запуск тестов pytest и базы данных:
 
     1. Остановить контейнеры проекта и базы данных, если запущены. Если контйнеры остановлены перейти к шагу №2.
-    2. Запустить команду "docker compose -f docker-compose-test.yml up --build" из корня проекта.
+    2. Запустить команду "docker compose -f docker-compose-test.yaml up --build" из корня проекта.
 
 
 Для локального запуска:
