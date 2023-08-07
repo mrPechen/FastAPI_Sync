@@ -8,6 +8,7 @@ Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.
 
   1. Клонировать проект.
   2. Убрать расширение txt у файла ".env.txt".
+  3. Если необходимо изменить параметры для базы данных.
 
     Запуск проекта и базы данных:
 
@@ -28,7 +29,7 @@ Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker.
 
   1. Клонировать проект.
   2. Установить библиотеки из файла "requirements.txt".
-  3. Убрать расширение txt у файла ".env.txt".
+  3. Убрать расширение txt у файла ".env.txt". Изменить параметры для базы данных, если необходимо.  
   4. Запустить на локальной машине PostgreSQL.
   5. В файле ".env" указать данные для базы данных. В значении "POSTGRES_SERVER" указать "localhost" или "127.0.0.1".
 
