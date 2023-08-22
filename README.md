@@ -1,12 +1,15 @@
-# YLab_project_1
-Task from the YLab company. FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker + Redis.
+# Sync version FastAPI
+API меню ресторана.
+
+Стэк: FastAPI + SQLalchemy + PostgreSQL + Pytest + Docker + Redis.
 
 Для хранения переменных во время запуска Pytest использовал встроенное кэширование.
-Тест подсчета подменю и блюд реализован в файле "application/tests/count_submenus_and_dishes_test.py". Он запускается вместе со всеми тестами.
 
 Для хранения кеша API используется redis.
 
-Проверка кода через линтеры в файле ".pre-commit-config.yaml". В корне проекта запустить команды "pre-commit install", затем "pre-commit run --all-files".
+Проверка кода через линтеры в файле ".pre-commit-config.yaml".
+
+Ссылка на асинхронную версию с CRUD опкрациями через Excel или Google sheets: https://github.com/mrPechen/FastAPI_Async
 
 Для запуска из докера:
 
